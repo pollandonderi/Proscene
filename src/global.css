@@ -1,0 +1,71 @@
+:root {
+    --textGrey: #343434;
+    --textBluish: #16213d;
+  }
+.maxWidthContainer{
+    max-width: min(1450px, 98%);
+    margin: 0 auto;
+}
+.Br{
+    border-radius: 60px;
+}
+.h1sizing{
+    font-size: clamp(2.4019rem, 1.0209rem + 3.9051vw, 4.6819rem);
+    font-weight: 500;
+    line-height: 1;
+    padding-bottom: .4em;
+}
+.text-Sizing{
+    font-weight: 200;
+}
+.thin-weight{
+    font-weight: 300;
+    color: var(--textGrey);
+    /* font-size: ; */
+}
+
+/* solutions */
+.h2-solutions{
+    font-size: clamp(1.125rem, 1.0243rem + 0.5034vw, 1.4963rem);
+    color: var(--textBluish);
+    font-weight: 600;
+}
+.h3solutions{
+    font-size: clamp(1.125rem, 1.0243rem + 0.5034vw, 1.4963rem);
+}
+
+/* partners components */
+.h2-partners{
+    font-size: clamp(1.4238rem, 1.0921rem + 1.6585vw, 2.6469rem);
+  color: var(--textBluish);
+  font-weight: 600;
+  padding-bottom: 1em;
+}
+/* sectorcard */
+.h2sectorcard{
+font-size: clamp(1.4238rem, 1.0921rem + 1.6585vw, 2.6469rem);
+color: var(--textBluish);
+}
+/* footer section */
+.h3footer{
+    font-weight: 600;
+}
+/* drivegrowth section */
+/* .bg-growth{
+    background-image: url('/src/components/assets/home.svg');
+} */
+@media (max-width:39em) {
+    .h1sizing{
+        text-align: center;
+    }
+    .Br{
+        border-radius: 30px;
+    }
+    .text-Sizing{
+        text-align: center;
+    }
+    .button-Center{
+        justify-content: center;
+        display: flex;
+    }
+}

@@ -1,0 +1,17 @@
+.home-section {
+    margin-bottom: 30px;
+    width: 100%; 
+    box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+    .home-section {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .home-section {
+        width: 100%;
+    }
+}

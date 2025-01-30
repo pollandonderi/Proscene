@@ -1,0 +1,104 @@
+
+.icon1 >*{
+    font-size: 1.7em;
+    margin-right: 1em;
+    color: #a142ff;
+}
+.login-main-container{
+    display: flex;
+    padding-bottom:5em;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+}
+.logo{
+    padding-bottom: .6em;
+}
+:is(.form-container){
+    background-color: #f3f3f3;
+    width: calc(min(90%, 600px));
+    border-radius: 15px;
+    color:red ;
+}
+:is(input){
+    padding-block: .6em;
+    outline: transparent;
+    border-radius: 10px;
+
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+}
+.sub-container{
+    color: #16213d;
+}
+.sub-container-h2{
+    font-size: clamp(1.2656rem, 1.0692rem + 0.9822vw, 1.99rem);
+    font-weight: 600;
+}
+.icons-1{
+    font-size: clamp(1.2656rem, 1.0692rem + 0.9822vw, 1.59rem);
+    color: #a142ff;
+}
+.icons{
+    font-size: clamp(1.2656rem, 1.0692rem + 0.9822vw, 1.99rem);
+    color: #a142ff;
+}
+.h3-bookdemopage{
+    font-size: clamp(1rem, 1.0661rem + 0.5695vw, 1.65rem);
+    font-weight: 700;
+    background-image: linear-gradient(to right,#a142ff 50%,transparent 50%);
+    background-position: 100% 100%;
+    background-repeat: no-repeat;
+    background-size: 205% .2rem;
+    display: inline-block;
+    overflow: hidden;
+}
+h3:hover{
+    background-position: 0 100%;
+  transition: all .25s linear;
+}
+.alert{
+    color: red;
+}
+.wrapper-cards{
+    /* // border-top: 2px solid rgba(128, 128, 128, 0.26); */
+    margin-top: 4em;
+    margin-bottom: 5em;
+}
+.cards{
+    width: min(97%, 1300px);
+    padding-top: 4em;
+    margin-top: 2em;
+    border-top:3px solid rgba(128, 128, 128, 0.158);
+    margin:0 auto;
+}
+.card-one{
+    background-color: rgba(128, 128, 128, 0.061);
+    padding: 1.5em;
+}
+h4{
+    font-size: clamp(1rem, 0.9661rem + 0.1695vw, 1.125rem);
+    font-weight: 900;
+    padding-bottom: 2em;
+}
+.p-center{
+    display: flex;
+    justify-content: flex-start;
+
+}
+@media (min-width:45em) {
+    .main{
+        display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-top: 30vh;
+  }
+  .cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1em;
+  }
+}

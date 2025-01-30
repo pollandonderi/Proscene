@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Axioforma';
+  src: url('./components/assets/fonts/axiforma-regular.woff2') format('woff2'),
+       url('./components/assets/fonts/axiforma-regular.woff') format('woff'),
+       url('./components/assets/fonts/axiforma-regular.eot') format('eot');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@layer components {
+    .card {
+        @apply bg-white rounded-lg shadow-md w-full flex flex-col space-y-4 border justify-between;
+    }
+    .sector-card {
+        @apply bg-white rounded-xl sm:rounded-[50px] shadow-md w-full flex flex-col lg:flex-row flex-nowrap p-[12px] sm:p-[50px] border border-indigo-300 gap-3;
+    }
+}
+
+.vision-title {
+    -webkit-text-stroke: 1px #a142ff;
+    color: #ecdeff;
+}
+
+.ourstory {
+    -webkit-text-stroke: 1px #90e3f8;   
+}

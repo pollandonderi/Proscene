@@ -1,0 +1,8 @@
+.mask1{
+    -webkit-mask-image: url('./assets/about.svg'); 
+    mask-image: url('./assets/about.svg');
+    mask-repeat: repeat; 
+    mask-size: contain;   
+    mask-position: center;
+    
+  }

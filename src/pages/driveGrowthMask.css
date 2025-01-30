@@ -1,0 +1,18 @@
+.hero-image{
+    height: 80svh;
+    -webkit-mask-image: url('/src/components/assets/blob\(3\).svg');
+    -webkit-mask-size: cover;
+    mask-image: url('/src/components/assets/blob\(3\).svg');
+    mask-size: contain;
+    mask-position: center;
+    mask-repeat: no-repeat;
+}
+.masktitle{
+    color: #16213d;
+    font-size:  clamp(1.8019rem, 1.0209rem + 3.9051vw, 4.6819rem);
+    font-weight: 600;
+}
+.maskp{
+    color: #16213d;
+    font-size: clamp(1.125rem, 1.0243rem + 0.5034vw, 1.4963rem);
+}

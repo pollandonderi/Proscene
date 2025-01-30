@@ -1,0 +1,86 @@
+.partner-card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center; /*  This keeps the card on the center of the screen (horizontally)*/
+  align-items: center;     /* This keeps the card on the center of the screen (vertically) */
+  margin: 0 auto;/* This keeps the card on the center of the screen*/
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.partner-card {
+  background-color: white;
+  box-shadow: 1px 1px 1px 1px rgba(102, 94, 214, 0.3);
+  width: calc(25% - 8px);  /* Adjust as necessary for desired card width */
+  padding: 12px;
+  border-radius: 12px;
+  text-align: center;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.card-logo {
+  width: 100%;
+  height: auto;
+  max-width: 150px;
+  margin-bottom: 16px;
+  margin: 0 auto; /* Makes the logo to be at the center of the card*/
+}
+
+.card-description {
+  font-size: 14px;
+  color: #333;
+  margin-bottom: 8px;
+}
+
+.card-link {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.load-more-container {
+  text-align: center;
+  width: 100%;
+  margin-top: 16px;
+}
+
+.load-more-text {
+  display: inline-flex;
+  align-items: center;
+  font-size: 16px;
+  color: #007bff;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.load-more-icon {
+  margin-left: 8px;
+  font-size: 20px;
+}
+
+.partners-header {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.partners-header h2 {
+  font-size: clamp(1.4238rem, 1.0921rem + 1.6585vw, 2.6469rem);
+    color: var(--textBluish);
+    font-weight: 600;
+    padding-bottom: 1em;
+}
+
+.partners-header p {
+  font-size: 1rem;
+  color: #555;
+}
+.partner-Images{
+  border-radius:.5rem .5rem 0rem 0rem;
+aspect-ratio: 4/2;
+}

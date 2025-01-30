@@ -1,0 +1,15 @@
+.map {
+  height: 400px;
+  max-width: 100%;
+  border: 2px solid rgb(105, 105, 105);
+}
+.contact-header{
+  font-size: clamp(1.4238rem, 1.0921rem + 1.6585vw, 2.6469rem);
+  color: var(--textBluish);
+  font-weight: 600;
+}
+.contact-choice{
+  font-size: clamp(1.125rem, 1.0243rem + 0.5034vw, 1.4963rem);
+  color: var(--textBluish);
+  font-weight: 600;
+}

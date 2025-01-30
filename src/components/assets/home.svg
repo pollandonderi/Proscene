@@ -1,0 +1,18 @@
+<svg width="552" height="459" viewBox="0 0 552 459" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="0.5" y="124.5" width="551" height="88" rx="19.5" fill="#FFDFD9" stroke="#FF7369"/>
+<rect x="8" y="132" width="83" height="73" rx="20" fill="white"/>
+<path d="M29 176.25L39.25 186L70 150" stroke="#FF7369" stroke-width="7.57778" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M167 175C173.667 165 190.333 165 217 175C243.667 185 260.333 185 267 175C273.667 165 290.333 165 317 175C343.667 185 360.333 185 367 175C373.667 165 390.333 165 417 175C443.667 185 460.333 185 467 175" stroke="#FF7369" stroke-width="4"/>
+<rect width="552" height="89" rx="20" fill="#A142FF"/>
+<rect x="8" y="8" width="83" height="73" rx="20" fill="white"/>
+<path d="M29 52.5208L39.25 62L70 27" stroke="#A142FF" stroke-width="7.57778" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M176 52.1953C194.951 55.1486 203.363 55.7529 242.927 43.8941C282.491 32.0353 300.475 32.0353 296.878 43.8941C293.281 55.7529 311.265 55.7529 350.829 43.8941C390.394 32.0353 408.377 32.0353 404.781 43.8941C401.184 55.7529 419.167 55.7529 458.732 43.8941" stroke="white" stroke-width="4" stroke-linecap="round"/>
+<rect x="0.5" y="370.5" width="551" height="88" rx="19.5" fill="#F3F6FF" stroke="#3B37E6"/>
+<rect x="8.5" y="378.5" width="82" height="72" rx="19.5" fill="white" stroke="#3B37E6"/>
+<path d="M29 422.25L39.25 432L70 396" stroke="#3B37E6" stroke-width="7.57778" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M458.734 414.805C439.783 411.851 431.372 411.247 391.808 423.106C352.243 434.965 334.26 434.965 337.856 423.106C341.453 411.247 323.469 411.247 283.905 423.106C244.341 434.965 226.357 434.965 229.954 423.106C233.551 411.247 215.567 411.247 176.003 423.106" stroke="#3B37E6" stroke-width="4" stroke-linecap="round"/>
+<rect x="0.5" y="247.5" width="551" height="88" rx="19.5" fill="#5ED0F9" stroke="#5ED0F9"/>
+<path d="M159 292C189 282 205.667 282 209 292C212.333 302 229 302 259 292C289 282 305.667 282 309 292C312.333 302 329 302 359 292C389 282 405.667 282 409 292C412.333 302 429 302 459 292" stroke="white" stroke-width="4" stroke-linecap="round"/>
+<rect x="8.5" y="255.5" width="82" height="72" rx="19.5" fill="white" stroke="#5ED0F9"/>
+<path d="M29 299.25L39.25 309L70 273" stroke="#5ED0F9" stroke-width="7.57778" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
